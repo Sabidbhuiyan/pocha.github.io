@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+nav {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.ha{
+  background-color: rgb(222, 20, 20);
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius :5px;
+  margin-left: 690px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.na{
+  background-color: rgb(25, 239, 43);
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius :5px ;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+.na:hover{
+  opacity: 0.4;
+}
+
